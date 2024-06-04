@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      chalk: ['Chalk', 'sans-serif'],
+      chalk: ['Chalk', 'FrederickatheGreat'],
+      roboto:['Roboto', 'sans-serif']
     }
   },
   plugins: [],
