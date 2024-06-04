@@ -1,11 +1,11 @@
+import Blackboard from "./components/Blackboard";
+
 function App() {
-
-
   return (
-    <>
-    <h2 className='bg-slate-500'>Hello World</h2>
-    </>
-  )
+    <div className=" w-full max-w-[1200px] mx-auto p-2">
+      <Blackboard />
+    </div>
+  );
 }
 
-export default App
+export default App;
