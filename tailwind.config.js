@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      chalk: ['Chalk', 'sans-serif'],
+    }
   },
   plugins: [],
 }
