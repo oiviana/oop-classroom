@@ -1,7 +1,6 @@
 import { steps } from "./steps";
-export default function ModalSteps() {
-  const currentStep = 1;
 
+export default function ModalIndex({ currentStep }: { currentStep: number }) {
   return (
     <div className="w-full md:max-w-[22rem] text-lg md:text-xl font-semibold">
       <div className="flex md:hidden border-b-[1px] border-slate-300 py-4">
@@ -16,7 +15,7 @@ export default function ModalSteps() {
       <div className="hidden md:flex flex-col items-center justify-center h-full gap-[6rem] border-[1px] border-slate-300 rounded-sm">
         {steps.map((step) => {
           return (
-            <div className="flex gap-3 items-center">
+            <div className="flex gap-3 items-center text-slate-700 font-semibold ">
               <span
                 className={`border-[1px] border-slate-700 rounded-full w-8 flex justify-center items-center transition-colors ${
                   currentStep === step.number && "bg-slate-700 text-white"
